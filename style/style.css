@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+header .container .logo {
+  width: 20%;
+}
+header .container .menu {
+  width: 70%;
+}
+header .container .menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .container .menu ul li a {
+  text-transform: uppercase;
+}
+header .container .search-icon {
+  width: 10%;
+  text-align: right;
+}
+header .container .search-icon a {
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+section .hero-section {
+  background: url(/images/iStock-1097184256.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 95px;
+}
+section .hero-section .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .hero-section .container .cont1 {
+  width: 40%;
+}
+section .hero-section .container .cont1 .title {
+  font-size: 80px;
+  margin-top: 148px;
+  margin-bottom: 64px;
+  color: #fff;
+}
+section .hero-section .container .cont1 .subtitle {
+  font-size: 18px;
+  color: #fff;
+}
+section .hero-section .container .cont2 {
+  width: 48%;
+}
+section .hero-section .container .cont3 {
+  width: 40%;
+  margin-top: 55px;
+}
+section .hero-section .container .cont3 .title {
+  color: #fff;
+}
+section .hero-section .container .cont3 li {
+  display: flex;
+  margin-top: 142px;
+}
+section .hero-section .container .cont3 li a {
+  color: #fff;
+  padding: 15px 15px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+section .hero-section .container .cont4 {
+  width: 55%;
+  margin-left: 63px;
+}
+section .hero-section .container .cont4 .specification {
+  display: flex;
+  justify-content: space-between;
+}
+section .hero-section .container .cont4 .specification .spec1 img {
+  width: 200px;
+}
+section .hero-section .container .cont4 .specification .spec2 img {
+  width: 200px;
+}
+section .hero-section .container .cont4 .specification .spec3 img {
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */
