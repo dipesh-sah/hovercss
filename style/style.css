@@ -5,9 +5,8 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1678px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 a {
@@ -99,12 +98,233 @@ section .hero-section .container .cont4 .specification {
   display: flex;
   justify-content: space-between;
 }
+section .hero-section .container .cont4 .specification .spec1 {
+  position: relative;
+}
+section .hero-section .container .cont4 .specification .spec1 .title {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+section .hero-section .container .cont4 .specification .spec1 a {
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  color: #13216a;
+}
 section .hero-section .container .cont4 .specification .spec1 img {
   width: 200px;
+}
+section .hero-section .container .cont4 .specification .spec2 {
+  position: relative;
+}
+section .hero-section .container .cont4 .specification .spec2 .title {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+section .hero-section .container .cont4 .specification .spec2 a {
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  color: #13216a;
 }
 section .hero-section .container .cont4 .specification .spec2 img {
   width: 200px;
 }
+section .hero-section .container .cont4 .specification .spec3 {
+  position: relative;
+}
+section .hero-section .container .cont4 .specification .spec3 .title {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+section .hero-section .container .cont4 .specification .spec3 a {
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  color: #13216a;
+}
 section .hero-section .container .cont4 .specification .spec3 img {
   width: 200px;
+}
+
+.container .text {
+  text-align: center;
+  max-width: 715px;
+  margin: 0 auto;
+}
+.container .text .content {
+  margin-top: 152px;
+}
+.container .text .content p {
+  font-size: 33px;
+  color: #13216a;
+}
+.container .text .content h2 {
+  font-size: 66px;
+  color: #13216a;
+}
+.container .text .desc {
+  width: 520px;
+  margin: 52px auto;
+  font-size: 18px;
+  color: #13216a;
+}
+.container .text a {
+  border: 2px solid #1a2979;
+  padding: 17px 42px;
+  border-radius: 5px;
+  color: #1a2979;
+}
+
+.box {
+  margin-top: 168px;
+}
+.box .container {
+  display: flex;
+  justify-content: space-between;
+}
+.box .container .about-us {
+  background: url("../images/Ridderkerk NL Team.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box .container .about-us .about {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 450px;
+}
+.box .container .about-us .about .content {
+  width: 280px;
+  color: #fff;
+}
+.box .container .about-us .about .content .title {
+  font-size: 38px;
+}
+.box .container .about-us .about .content .subtitle {
+  font-size: 17px;
+  margin: 33px 0 70px 0;
+  color: #fff;
+}
+.box .container .about-us .about a {
+  align-self: center;
+  padding: 17px 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+}
+.box .container .similar {
+  width: 48%;
+}
+.box .container .newsannouncement {
+  background-image: linear-gradient(320deg, #15236e, #3549b2);
+}
+.box .container .newsannouncement .content {
+  max-width: 490px;
+  margin: 0 auto;
+}
+.box .container .newsannouncement .content .title {
+  margin-top: 96px;
+  font-size: 38px;
+  color: #fff;
+}
+.box .container .newsannouncement .content .subtitle {
+  margin-top: 57px;
+  font-size: 17px;
+  color: #fff;
+  padding-bottom: 77px;
+}
+.box .container .newsannouncement .content .news {
+  margin-top: 205px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.box .container .newsannouncement .content .news .news1 .newstitle {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 13px;
+  margin-bottom: 5px;
+}
+.box .container .newsannouncement .content .news .news1 .newsubtitle {
+  padding-bottom: 75px;
+}
+
+.goal .container {
+  display: flex;
+  background: #f2f2f2;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.goal .container .goaltext {
+  width: 522px;
+  margin-left: 93px;
+}
+.goal .container .goaltext img {
+  margin: 113px 0 50px 0;
+}
+.goal .container .goaltext p {
+  font-size: 17px;
+  color: #13216a;
+  margin-bottom: 75px;
+}
+.goal .container .goaltext a {
+  padding: 19px 40px;
+  border: 2px solid #13216a;
+  border-radius: 5px;
+  color: #13216a;
+  font-size: 14px;
+}
+.container .partners p {
+  text-align: center;
+  margin-top: 138px;
+  margin-bottom: 26px;
+  font-size: 15px;
+}
+.container .partners ul {
+  display: flex;
+  justify-content: center;
+}
+.container .partners ul li {
+  border: 1px solid #d9d9d9;
+  padding: 48px 34px;
+}
+.container .dots {
+  text-align: center;
+  margin-top: 30px;
+}
+.container .dots .dot {
+  height: 15px;
+  margin-right: 11px;
+  width: 15px;
+  border: 2px solid #d9d9da;
+  border-radius: 50%;
+  display: inline-block;
+}
+.container .dots .dot:first-child {
+  background-color: #13216a;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
